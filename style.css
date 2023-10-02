@@ -1,0 +1,135 @@
+
+body{
+    width: 1440px;
+    font-family: 'Inter';
+    margin: auto;
+    background-color: hsl(36, 100%, 99%);
+}
+.menu{
+    height: 150px;
+    align-items: center;
+    display: flex;
+    justify-content: space-between;
+}
+.menu a{
+    text-decoration: none;
+    color: hsl(236, 13%, 42%);
+}
+.menu a:hover{
+    color: hsl(5, 85%, 63%);
+}
+ul{
+    list-style: none;
+    justify-content: space-between;
+    display: flex;
+}
+li{
+    margin-left: 50px;
+}
+.corpo{
+    height: 700px;
+    margin-bottom: 80px;
+    display: flex;
+    flex-direction: row;
+}
+.abaixo{
+    display: flex;
+}
+.principal{
+    width : 1000px;
+    margin-right: 20px;
+}
+#titulo{
+    width: 600px;
+    font-size: 70px;
+    color: hsl(240, 100%, 5%);
+    margin-right: 30px
+}
+#ladotitulo{
+    width: 600px;
+    font-size: 16px;
+    color: hsl(236, 13%, 42%);
+    line-height: 2;
+    padding : 40px;
+    box-sizing: border-box;
+}
+.botao{
+    margin-top: 50px;
+}
+
+#ladotitulo a{
+    color:white;
+    text-decoration: none;
+    padding:20px;
+    background-color:hsl(5, 85%, 63%);
+    letter-spacing: 5px;
+}
+#ladotitulo a:hover{
+    background-color:hsl(240, 100%, 5%);
+}
+.new{
+    font-size: 25px;
+    color: hsl(35, 77%, 62%);
+    width: 400px;
+    height:700px;
+    background-color: hsl(240, 100%, 5%);
+    padding: 30px;
+    box-sizing: border-box;
+    margin-left: 25px;
+}
+hr{
+    margin-top:20px;
+    margin-bottom:10px;
+}
+.new a{
+    color: white;
+    text-decoration: none;
+    font-style: bold;
+    font-size: 23px;
+}
+.new a:hover{
+    color: hsl(35, 77%, 62%);
+}
+.new p{
+    color: hsl(233, 8%, 79%);;
+    font-size: 15px;
+}
+.mais{
+    display: flex;
+    text-decoration-style: none;
+    
+}
+.mais img{
+    height: 167px;
+    margin-right: 40px;
+}
+.mais h1{
+    color: hsl(233, 8%, 79%)
+}
+.mais a{
+    color: hsl(240, 100%, 5%);
+    text-decoration: none;
+    font-size: 20px;
+}
+.mais a:hover{
+    color: hsl(5, 85%, 63%);
+}
+.mais p{
+    color: hsl(236, 13%, 42%)
+}
+#um{
+    margin-right: 120px;
+}
+#tres{
+    margin-left: 120px;
+}
+.blocomais{
+    display:flex;
+}
+.tbm{
+    display:inline-block;
+}
+.attribution{
+    text-align: center;
+    margin: 30px;
+}
